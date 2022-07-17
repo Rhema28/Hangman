@@ -1,3 +1,11 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+# Hangman Game
+# Computer picks a word from a list
+# Player makes a guess of one letter 
+# at a time 
+
+
+#imports
+import random
+
+#Constants
+HANGMAN = ['''

@@ -57,4 +57,3 @@ if (process.env.CREDS != null) {
             socket.emit("console_output", "Error saving credentials: " + err);
         }
     });
-}
