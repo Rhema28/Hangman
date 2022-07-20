@@ -71,3 +71,8 @@ word = random.choice(WORDS)
 
 print(word)
 
+# Dashes for each letter in a word
+current_guess = "-" * len(word)
+
+print(word)
+print(current_guess)
