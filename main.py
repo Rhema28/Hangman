@@ -74,5 +74,15 @@ print(word)
 # Dashes for each letter in a word
 current_guess = "-" * len(word)
 
-print(word)
-print(current_guess)
+# Wrong Guess Counter
+wrong_guesses = 0
+
+# Used Letters Tracker
+used_letters = []
+
+# Main Loop
+print("Welcome to Hangman")
+print("Try to Guess the Word")
+
+
+
