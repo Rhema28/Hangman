@@ -57,11 +57,17 @@ HANGMAN = ['''
    /|\  |
    / \    |
         |
-===========''', ''']
+===========''']
 
-WORDS = ["HEART", "LOBSTER", "RABBIT", "MOTHERHOOD", "STAR", PINEAPPLE"]
+WORDS = ["HEART", "LOBSTER", "RABBIT", "MOTHERHOOD", "STAR", "PINEAPPLE"]
  
 MAX_WRONG = len(HANGMAN) - 1
 
 
 # Initialise Variables
+
+# Pick a word
+word = random.choice(WORDS)
+
+print(word)
+
